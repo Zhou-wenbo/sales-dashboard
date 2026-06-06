@@ -1,0 +1,10 @@
+name = "sales-dashboard"
+main = "dist/index.html"
+compatibility_date = "2025-01-01"
+
+[pages]
+route = { pattern = "/api/*", function = "functions/api" }
+
+[vars]
+MONGODB_API_KEY = "你的Mongo Data API Key"
+MONGODB_URL = "你的Mongo Data API URL"
