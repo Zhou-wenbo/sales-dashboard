@@ -1,0 +1,17 @@
+/* 全局样式清零 + 同意盒模型 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 让页面沾满全屏 */
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    font-family: "Microsoft YaHei",sans-serif;
+}
+/* 滚动条美化 */
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 3px;
+}

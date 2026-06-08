@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "browserslist": [
+    "last 2 versions",
+    ">=ios 12",
+    ">= android 7",
+    "> 1%",
+    "not dead"
+  ],
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.6.0",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.14.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
+    "autoprefixer": "^10.5.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss": "^8.5.15",
+    "postcss-px-to-viewport": "^1.1.1",
+    "style-loader": "^3.3.3",
+    "vue-loader": "^17.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
